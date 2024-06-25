@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coddit</title>
+  </head>
+  <body>
+    <div
+      style="
+        width: 200px;
+        text-align: center;
+        height: 112.5px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+      "
+    >
+      <div id="status" style="font-size: 1.25em">
+        Status: <span id="statusText">Disconnected</span>
+      </div>
+      <div>
+        <button class="button" id="actionButton">Connect</button>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 3px;
+        "
+      >
+        <input type="checkbox" id="acceptSystemPrompt" />
+        <label for="acceptSystemPrompt">Accept system prompt</label>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

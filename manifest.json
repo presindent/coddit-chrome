@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Coddit × Neovim",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:5000/", "http://localhost:5001/"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
